@@ -12,6 +12,7 @@ repository = "https://github.com/fyaz05/FileToLink"
 dependencies = [
     "aiohttp>=3.9",
     "cloudscraper>=1.2",
+    "cryptography",
     "jinja2>=3.1",
     "pytdbot[tdjson]>=0.9",
     "pymongo>=4.7",
